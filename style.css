@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+
+
+*
+{
+  font-family: "Source Sans Pro', sans-serif";
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+  margin: 0%;
+
+}
+.nav
+{
+ font-size:Arial, sans-serif; 
+ font-size: 16px; 
+ color: #000000;
+width: 100vw;  
+display: flex;
+height: 65px;
+background-color: #000000;
+}
+.context-header
+{
+  background-color:#ffffff;
+  color: #373a3c;
+  height: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: normal;
+  justify-content: normal;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.context-header-child1
+{
+  
+display: flex;
+flex-direction: row;  
+justify-content: space-between;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+letter-spacing: normal;
+background-color:white;
+line-height: 21px;
+padding: 0%;
+padding-left: 14px;
+width: 32%;
+height: 100%;
+
+}
+.explore{
+  
+  /* margin-bottom: 10px; */
+  padding-left: 15px;
+  border:none;
+  
+  height: 36px;
+  width: 100px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: default;
+  padding: 0px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-color: #0b78e6;
+}
+.search-bar
+{
+  
+}
+.context-header-child2
+{
+  display: contents;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-left: 251px;
+  width: 49vw;
+  height: 18vh;
+  background-color: rgb(159, 159, 192);
+  line-height: 21px;
+  padding: 0%;
+  padding-left: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f1f1f;
+  
+}
+li{
+  list-style: none;
+  padding: 20px;
+}
+.joinfree
+{
+  padding-left: 15px;
+  border:none;  
+  height: 36px;
+  width: 100px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: default;
+  padding: 0px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-color: #0b78e6;
+}
+.learn
+{
+  width: 100%;
+  padding: 0%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.learn_child
+{
+  padding-left: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1
+{
+  font-family:sans-serif;
+  font-size: 64px;
+  line-height: 5px;
+  letter-spacing: -0.2px;
+  padding-right: 142px;
+}
+h2
+{
+  font-family:sans-serif;
+  font-size: 24px;
+  line-height: 5px;
+  letter-spacing: -0.2px;
+  padding-right: 142px;
+}
+p
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 21px;
+line-height: 33px;
+}
+.learn-button
+{
+  display: flex;
+  flex-direction: row;
+  padding-right: 380px;
+  align-content: space-between;
+}
+.companies
+{
+  width: 100%;
+  float:right;
+  background-color: rgb(231, 229, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  align-items: center;
+  height: 50vh;
+}
+.companies-child
+{
+  width: 1334px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding-left: 220px;
+}
+.illinose
+{
+  width: 125px;
+}
+.duke
+{
+  width: 125px;
+}
+.google
+{
+  width: 125px;
+}
+.ibm
+{
+  width: 125px;
+}
+.imperial
+{
+  width: 125px;
+}
+.standford
+{
+  width: 125px;
+}
+.penn
+{
+  width: 125px;
+}
+.certificates
+{
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+.card
+{
+  height: 252px;
+  
+  width: 270px;
+
+  background-image: linear-gradient(135deg, rgb(0, 37, 93), rgb(0, 37, 93));
+  margin-left: 10px;
+}
+.content{
+  width: 100%;
+  position:absolute
+}
+.degree
+{
+  background-color: azure;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.track-certificates
+{
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+.footersection1
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+}
+.child1{
+
+}
+.footersection2
+{
+  display: flex;
+  flex-direction: row;
+
+}
